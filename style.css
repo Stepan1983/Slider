@@ -17,8 +17,8 @@
 
 .slider-intro {
   margin-right: 122px;
-  width: 40rem;
-  height: 50rem;
+  width: 27rem;
+  height: 35rem;
   object-fit: cover;
   vertical-align: top;
 }
@@ -68,7 +68,7 @@
 }
 
 .slider-checkbox {
-  margin: 0px 430px 0px 530px;
+  margin: 0px 430px 0px 350px;
   width: 10%;
   display: flex;
   justify-content: space-between;
@@ -80,4 +80,10 @@
   height: 15px;
   vertical-align: top;
   cursor: pointer;
+}
+
+.slider-checkbox-button:hover {
+  border:1px black solid;
+  border-radius:50%;
+
 }
